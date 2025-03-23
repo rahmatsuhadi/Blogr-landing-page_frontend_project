@@ -33,7 +33,7 @@ pipeline {
 
                     // // Menjalankan container baru
                     echo "Running new container..."
-                    sh 'docker run -d --name landing-page --rm -p 8000:80 landing-page-image:latest'
+                    sh 'docker run -d --name landing-page --rm -p 8081:80 landing-page-image:latest'
                 }
             }
         }
